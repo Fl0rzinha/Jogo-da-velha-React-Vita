@@ -1,0 +1,79 @@
+/*  */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(16, 0, 56);
+  color: white;
+}
+
+/*  */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(102, 0, 102);
+  border: 1px solid black;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.square:hover {
+  background-color: rgb(164, 0, 164);
+  box-shadow: 0 0 10px 1px rgba(158, 0, 158, 0.836);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/*  */
+.winner {
+  color: #ffd324;
+  text-shadow: 2px 2px 4px #ffcc00;
+}
+
+.WinnerClass {
+  text-shadow: 2px 2px 4px red;
+}
+
+/*  */
+.status{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/*  */
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #8c00ff;
+  columns: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/*  */
+.reset-button:hover {
+  background-color: #a12fff;
+  color: white;
+  box-shadow: 0 0 10px 1px #b151ffd3;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.status {
+  color: white;
+}
